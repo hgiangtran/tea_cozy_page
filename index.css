@@ -1,0 +1,106 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header img {
+    margin-left: 10px;
+    height: 50px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+nav ul li { 
+    margin: 0 10px;
+    display: inline-flex;
+}
+nav ul li a {
+    color: grey;
+    text-decoration: underline;
+}
+#Mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 69px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    border-radius: 5px;;
+}
+.mission-header {
+    background-color: black;
+    width: 100%;
+}
+.mission-header h2, 
+.mission-header h4 {
+    padding: 0 auto;
+}
+.img_with_text {
+    padding: 10px auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Featured_Tea {
+    width: 1000px;
+    margin: 0 auto;
+}
+.img_with_text img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.img_with_text h4 {
+    margin-top: 10px;
+}
+#Locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 570px;
+    flex-direction: collumn;
+    margin: 0 auto;
+    width: 1200px;
+}
+#Locations .square {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    margin: auto 40px;
+    opacity: 1;
+}
+.collumn {
+    display: flex;
+}
+#Locations h2 {
+    margin-bottom: 15px;
+}
+.Contact {
+    margin-left: 20px;
+    height: 200px;
+}
+.Copyright {
+    margin-left: 20px;
+    text-align: left;
+}
